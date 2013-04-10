@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="4"
         android:targetSdkVersion="17" />
 
     <application
@@ -29,6 +29,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.testandroid.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.testandroid.ViewPhoto"
+            android:label="@string/title_activity_view_photo" >
         </activity>
     </application>
 
